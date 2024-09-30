@@ -1,0 +1,944 @@
+{
+  "model_class": "KnowledgeMaster",
+  "trainset": [
+    {
+      "input_text": "I'm an introvert and prefer quiet environments",
+      "existing_knowledge": [],
+      "output": {
+        "id": "b0dd0443-e0b4-4ea2-9b72-cfed77fa9959",
+        "category": "UserAttribute",
+        "content": "Introvert, prefers quiet environments",
+        "details": [
+          {
+            "reason": "personality trait"
+          },
+          {
+            "reason": "work preference"
+          }
+        ],
+        "status": "CreateMemory",
+        "original_entry": null
+      }
+    },
+    {
+      "input_text": "I'm allergic to peanuts and shellfish",
+      "existing_knowledge": [],
+      "output": {
+        "id": "f0ab8458-5cc0-4d7f-9dc7-e4050a42f05d",
+        "category": "UserAttribute",
+        "content": "Allergic to peanuts and shellfish",
+        "details": [
+          {
+            "reason": "health information"
+          },
+          {
+            "reason": "dietary restriction"
+          }
+        ],
+        "status": "CreateMemory",
+        "original_entry": null
+      }
+    },
+    {
+      "input_text": "I'm a night owl and most productive after 10 PM",
+      "existing_knowledge": [],
+      "output": {
+        "id": "4e5936a0-6f8a-4070-9aa0-5a648442c43a",
+        "category": "UserAttribute",
+        "content": "Night owl, most productive after 10 PM",
+        "details": [
+          {
+            "reason": "work habit"
+          },
+          {
+            "reason": "personal rhythm"
+          }
+        ],
+        "status": "CreateMemory",
+        "original_entry": null
+      }
+    },
+    {
+      "input_text": "I'm a visual learner and prefer diagrams and charts",
+      "existing_knowledge": [],
+      "output": {
+        "id": "14925ff7-90e6-40a0-9dad-bb5bdbf53862",
+        "category": "UserAttribute",
+        "content": "Visual learner, prefers diagrams and charts",
+        "details": [
+          {
+            "reason": "learning style"
+          },
+          {
+            "reason": "information processing preference"
+          }
+        ],
+        "status": "CreateMemory",
+        "original_entry": null
+      }
+    },
+    {
+      "input_text": "I'm passionate about environmental conservation",
+      "existing_knowledge": [],
+      "output": {
+        "id": "38434307-40ec-48a8-9515-41a97d85fccb",
+        "category": "UserAttribute",
+        "content": "Passionate about environmental conservation",
+        "details": [
+          {
+            "reason": "personal value"
+          },
+          {
+            "reason": "lifestyle influence"
+          }
+        ],
+        "status": "CreateMemory",
+        "original_entry": null
+      }
+    },
+    {
+      "input_text": "I've decided to read 'War and Peace' instead of 'The Alchemist' this week",
+      "existing_knowledge": [
+        {
+          "id": "123e4567-e89b-12d3-a456-426614174000",
+          "category": "ShortTermGoals",
+          "content": "Finish reading 'The Alchemist' by next week",
+          "details": [
+            {
+              "reason": "personal growth"
+            },
+            {
+              "reason": "expand literary knowledge"
+            }
+          ],
+          "status": "CreateMemory"
+        }
+      ],
+      "output": {
+        "id": "b908684e-d61a-4f82-90cf-49c2690f8a28",
+        "category": "ShortTermGoals",
+        "content": "Read 'War and Peace' this week",
+        "details": [
+          {
+            "reason": "challenge myself"
+          },
+          {
+            "reason": "explore classic literature"
+          }
+        ],
+        "status": "UpdateMemory",
+        "original_entry": {
+          "id": "123e4567-e89b-12d3-a456-426614174000",
+          "category": "ShortTermGoals",
+          "content": "Finish reading 'The Alchemist' by next week",
+          "details": [
+            {
+              "reason": "personal growth"
+            },
+            {
+              "reason": "expand literary knowledge"
+            }
+          ],
+          "to_remove": [],
+          "status": "CreateMemory"
+        }
+      }
+    },
+    {
+      "input_text": "I need to reorganize my home office instead of my closet this weekend",
+      "existing_knowledge": [
+        {
+          "id": "123e4567-e89b-12d3-a456-426614174001",
+          "category": "ShortTermGoals",
+          "content": "Clean out closet this weekend",
+          "details": [
+            {
+              "reason": "organize living space"
+            },
+            {
+              "reason": "prepare for donation"
+            }
+          ],
+          "status": "CreateMemory"
+        }
+      ],
+      "output": {
+        "id": "a52a90f9-7726-4518-86fa-a47dab0bf918",
+        "category": "ShortTermGoals",
+        "content": "Reorganize home office this weekend",
+        "details": [
+          {
+            "reason": "improve work environment"
+          },
+          {
+            "reason": "increase productivity"
+          }
+        ],
+        "status": "UpdateMemory",
+        "original_entry": {
+          "id": "123e4567-e89b-12d3-a456-426614174001",
+          "category": "ShortTermGoals",
+          "content": "Clean out closet this weekend",
+          "details": [
+            {
+              "reason": "organize living space"
+            },
+            {
+              "reason": "prepare for donation"
+            }
+          ],
+          "to_remove": [],
+          "status": "CreateMemory"
+        }
+      }
+    },
+    {
+      "input_text": "I've already finished 'The Alchemist', so I don't need to read it next week",
+      "existing_knowledge": [
+        {
+          "id": "123e4567-e89b-12d3-a456-426614174002",
+          "category": "ShortTermGoals",
+          "content": "Finish reading 'The Alchemist' by next week",
+          "details": [
+            {
+              "reason": "personal growth"
+            },
+            {
+              "reason": "expand literary knowledge"
+            }
+          ],
+          "status": "CreateMemory"
+        }
+      ],
+      "output": {
+        "id": "16705e52-49d8-49c1-a0a9-b3257416c42d",
+        "category": "JournalEntry",
+        "content": "Finished reading 'The Alchemist'",
+        "details": [
+          {
+            "reason": "completed ahead of schedule"
+          },
+          {
+            "reason": "enjoyed the book"
+          }
+        ],
+        "status": "DeleteMemory",
+        "original_entry": {
+          "id": "123e4567-e89b-12d3-a456-426614174002",
+          "category": "ShortTermGoals",
+          "content": "Finish reading 'The Alchemist' by next week",
+          "details": [
+            {
+              "reason": "personal growth"
+            },
+            {
+              "reason": "expand literary knowledge"
+            }
+          ],
+          "to_remove": [],
+          "status": "CreateMemory"
+        }
+      }
+    },
+    {
+      "input_text": "I no longer need to clean out my closet as I did it yesterday",
+      "existing_knowledge": [
+        {
+          "id": "123e4567-e89b-12d3-a456-426614174003",
+          "category": "ShortTermGoals",
+          "content": "Clean out closet this weekend",
+          "details": [
+            {
+              "reason": "organize living space"
+            },
+            {
+              "reason": "prepare for donation"
+            }
+          ],
+          "status": "CreateMemory"
+        }
+      ],
+      "output": {
+        "id": "c57a2ece-64d4-471e-ad51-9a59f7b13e16",
+        "category": "JournalEntry",
+        "content": "Cleaned out closet yesterday",
+        "details": [
+          {
+            "reason": "task completed early"
+          },
+          {
+            "reason": "feeling organized"
+          }
+        ],
+        "status": "DeleteMemory",
+        "original_entry": {
+          "id": "123e4567-e89b-12d3-a456-426614174003",
+          "category": "ShortTermGoals",
+          "content": "Clean out closet this weekend",
+          "details": [
+            {
+              "reason": "organize living space"
+            },
+            {
+              "reason": "prepare for donation"
+            }
+          ],
+          "to_remove": [],
+          "status": "CreateMemory"
+        }
+      }
+    },
+    {
+      "input_text": "I've decided to learn Italian instead of Spanish in the next 6 months",
+      "existing_knowledge": [
+        {
+          "id": "123e4567-e89b-12d3-a456-426614174004",
+          "category": "MediumTermGoals",
+          "content": "Learn basic Spanish in 6 months",
+          "details": [
+            {
+              "reason": "prepare for upcoming vacation"
+            },
+            {
+              "reason": "personal growth"
+            }
+          ],
+          "status": "CreateMemory"
+        }
+      ],
+      "output": {
+        "id": "ed460593-7e11-45a5-a5f7-4a8b26e867ad",
+        "category": "MediumTermGoals",
+        "content": "Learn basic Italian in 6 months",
+        "details": [
+          {
+            "reason": "change in travel plans"
+          },
+          {
+            "reason": "interest in Italian culture"
+          }
+        ],
+        "status": "UpdateMemory",
+        "original_entry": {
+          "id": "123e4567-e89b-12d3-a456-426614174004",
+          "category": "MediumTermGoals",
+          "content": "Learn basic Spanish in 6 months",
+          "details": [
+            {
+              "reason": "prepare for upcoming vacation"
+            },
+            {
+              "reason": "personal growth"
+            }
+          ],
+          "to_remove": [],
+          "status": "CreateMemory"
+        }
+      }
+    },
+    {
+      "input_text": "I want to save $6000 for a new computer instead of $5000 by the end of the year",
+      "existing_knowledge": [
+        {
+          "id": "123e4567-e89b-12d3-a456-426614174005",
+          "category": "MediumTermGoals",
+          "content": "Save $5000 for a new computer by year-end",
+          "details": [
+            {
+              "reason": "upgrade work equipment"
+            },
+            {
+              "reason": "improve productivity"
+            }
+          ],
+          "status": "CreateMemory"
+        }
+      ],
+      "output": {
+        "id": "51ec3a2a-9629-456b-8202-57c553c0e495",
+        "category": "MediumTermGoals",
+        "content": "Save $6000 for a new computer by year-end",
+        "details": [
+          {
+            "reason": "upgrade to better model"
+          },
+          {
+            "reason": "future-proof investment"
+          }
+        ],
+        "status": "UpdateMemory",
+        "original_entry": {
+          "id": "123e4567-e89b-12d3-a456-426614174005",
+          "category": "MediumTermGoals",
+          "content": "Save $5000 for a new computer by year-end",
+          "details": [
+            {
+              "reason": "upgrade work equipment"
+            },
+            {
+              "reason": "improve productivity"
+            }
+          ],
+          "to_remove": [],
+          "status": "CreateMemory"
+        }
+      }
+    },
+    {
+      "input_text": "I've decided not to learn Spanish anymore as my travel plans have changed",
+      "existing_knowledge": [
+        {
+          "id": "123e4567-e89b-12d3-a456-426614174006",
+          "category": "MediumTermGoals",
+          "content": "Learn basic Spanish in 6 months",
+          "details": [
+            {
+              "reason": "prepare for upcoming vacation"
+            },
+            {
+              "reason": "personal growth"
+            }
+          ],
+          "status": "CreateMemory"
+        }
+      ],
+      "output": {
+        "id": "1da009cf-e6d8-4f06-b18f-b7ed25e0ae8f",
+        "category": "JournalEntry",
+        "content": "Decided not to learn Spanish due to change in travel plans",
+        "details": [
+          {
+            "reason": "change in priorities"
+          },
+          {
+            "reason": "focus on other goals"
+          }
+        ],
+        "status": "DeleteMemory",
+        "original_entry": {
+          "id": "123e4567-e89b-12d3-a456-426614174006",
+          "category": "MediumTermGoals",
+          "content": "Learn basic Spanish in 6 months",
+          "details": [
+            {
+              "reason": "prepare for upcoming vacation"
+            },
+            {
+              "reason": "personal growth"
+            }
+          ],
+          "to_remove": [],
+          "status": "CreateMemory"
+        }
+      }
+    },
+    {
+      "input_text": "I no longer need to save for a new computer as I received one as a gift",
+      "existing_knowledge": [
+        {
+          "id": "123e4567-e89b-12d3-a456-426614174007",
+          "category": "MediumTermGoals",
+          "content": "Save $5000 for a new computer by year-end",
+          "details": [
+            {
+              "reason": "upgrade work equipment"
+            },
+            {
+              "reason": "improve productivity"
+            }
+          ],
+          "status": "CreateMemory"
+        }
+      ],
+      "output": {
+        "id": "650a87f0-a9a3-46e0-b37e-f448bc65dbd4",
+        "category": "JournalEntry",
+        "content": "Received new computer as a gift, no need to save",
+        "details": [
+          {
+            "reason": "unexpected gift"
+          },
+          {
+            "reason": "goal achieved differently"
+          }
+        ],
+        "status": "DeleteMemory",
+        "original_entry": {
+          "id": "123e4567-e89b-12d3-a456-426614174007",
+          "category": "MediumTermGoals",
+          "content": "Save $5000 for a new computer by year-end",
+          "details": [
+            {
+              "reason": "upgrade work equipment"
+            },
+            {
+              "reason": "improve productivity"
+            }
+          ],
+          "to_remove": [],
+          "status": "CreateMemory"
+        }
+      }
+    },
+    {
+      "input_text": "I want to start my own non-profit organization instead of a business in the next 5 years",
+      "existing_knowledge": [
+        {
+          "id": "123e4567-e89b-12d3-a456-426614174008",
+          "category": "LongTermGoals",
+          "content": "Start own business within 5 years",
+          "details": [
+            {
+              "reason": "financial independence"
+            },
+            {
+              "reason": "pursue passion"
+            }
+          ],
+          "status": "CreateMemory"
+        }
+      ],
+      "output": {
+        "id": "a2cb33f2-1a72-41a3-bbe7-88c8441a2e34",
+        "category": "LongTermGoals",
+        "content": "Start own non-profit organization within 5 years",
+        "details": [
+          {
+            "reason": "make a social impact"
+          },
+          {
+            "reason": "align work with values"
+          }
+        ],
+        "status": "UpdateMemory",
+        "original_entry": {
+          "id": "123e4567-e89b-12d3-a456-426614174008",
+          "category": "LongTermGoals",
+          "content": "Start own business within 5 years",
+          "details": [
+            {
+              "reason": "financial independence"
+            },
+            {
+              "reason": "pursue passion"
+            }
+          ],
+          "to_remove": [
+            {
+              "reason": "financial independence"
+            },
+            {
+              "reason": "pursue passion"
+            }
+          ],
+          "status": "CreateMemory"
+        }
+      }
+    },
+    {
+      "input_text": "I now want to buy a house in the city instead of the countryside within 10 years",
+      "existing_knowledge": [
+        {
+          "id": "123e4567-e89b-12d3-a456-426614174009",
+          "category": "LongTermGoals",
+          "content": "Buy a house in the countryside within 10 years",
+          "details": [
+            {
+              "reason": "change lifestyle"
+            },
+            {
+              "reason": "investment in property"
+            }
+          ],
+          "status": "CreateMemory"
+        }
+      ],
+      "output": {
+        "id": "b98c0f1f-f7d8-4835-8323-9f36facde9fb",
+        "category": "LongTermGoals",
+        "content": "Buy a house in the city within 10 years",
+        "details": [
+          {
+            "reason": "prefer urban lifestyle"
+          },
+          {
+            "reason": "closer to work opportunities"
+          }
+        ],
+        "status": "UpdateMemory",
+        "original_entry": {
+          "id": "123e4567-e89b-12d3-a456-426614174009",
+          "category": "LongTermGoals",
+          "content": "Buy a house in the countryside within 10 years",
+          "details": [
+            {
+              "reason": "change lifestyle"
+            },
+            {
+              "reason": "investment in property"
+            }
+          ],
+          "to_remove": [
+            {
+              "reason": "change lifestyle"
+            },
+            {
+              "reason": "investment in property"
+            }
+          ],
+          "status": "CreateMemory"
+        }
+      }
+    },
+    {
+      "input_text": "I've decided not to start my own business anymore and focus on my current career",
+      "existing_knowledge": [
+        {
+          "id": "123e4567-e89b-12d3-a456-426614174010",
+          "category": "LongTermGoals",
+          "content": "Start own business within 5 years",
+          "details": [
+            {
+              "reason": "financial independence"
+            },
+            {
+              "reason": "pursue passion"
+            }
+          ],
+          "status": "CreateMemory"
+        }
+      ],
+      "output": {
+        "id": "29556728-4b76-4d56-a236-da61d98873e6",
+        "category": "JournalEntry",
+        "content": "Decided to focus on current career instead of starting a business",
+        "details": [
+          {
+            "reason": "reevaluated priorities"
+          },
+          {
+            "reason": "found fulfillment in current job"
+          }
+        ],
+        "status": "DeleteMemory",
+        "original_entry": {
+          "id": "123e4567-e89b-12d3-a456-426614174010",
+          "category": "LongTermGoals",
+          "content": "Start own business within 5 years",
+          "details": [
+            {
+              "reason": "financial independence"
+            },
+            {
+              "reason": "pursue passion"
+            }
+          ],
+          "to_remove": [
+            {
+              "reason": "financial independence"
+            },
+            {
+              "reason": "pursue passion"
+            }
+          ],
+          "status": "CreateMemory"
+        }
+      }
+    },
+    {
+      "input_text": "I no longer want to buy a house as I prefer the flexibility of renting",
+      "existing_knowledge": [
+        {
+          "id": "123e4567-e89b-12d3-a456-426614174011",
+          "category": "LongTermGoals",
+          "content": "Buy a house in the countryside within 10 years",
+          "details": [
+            {
+              "reason": "change lifestyle"
+            },
+            {
+              "reason": "investment in property"
+            }
+          ],
+          "status": "CreateMemory"
+        }
+      ],
+      "output": {
+        "id": "afa43a60-1052-4a35-ad5b-c4868f6746eb",
+        "category": "JournalEntry",
+        "content": "Decided against buying a house, prefer renting for flexibility",
+        "details": [
+          {
+            "reason": "change in lifestyle preference"
+          },
+          {
+            "reason": "value flexibility over ownership"
+          }
+        ],
+        "status": "DeleteMemory",
+        "original_entry": {
+          "id": "123e4567-e89b-12d3-a456-426614174011",
+          "category": "LongTermGoals",
+          "content": "Buy a house in the countryside within 10 years",
+          "details": [
+            {
+              "reason": "change lifestyle"
+            },
+            {
+              "reason": "investment in property"
+            }
+          ],
+          "to_remove": [
+            {
+              "reason": "change lifestyle"
+            },
+            {
+              "reason": "investment in property"
+            }
+          ],
+          "status": "CreateMemory"
+        }
+      }
+    },
+    {
+      "input_text": "I want to plan a trip to Japan and explore the countryside within the next 6 months.",
+      "existing_knowledge": [
+        {
+          "id": "5df99a25-1b80-47bb-b674-48e69e45bd0b",
+          "category": null,
+          "content": null,
+          "details": null,
+          "status": null
+        }
+      ],
+      "output": {
+        "id": "5c9bb3a2-f073-4fdd-ae88-aa1d8c9f1af8",
+        "category": "Task",
+        "content": "I want to plan a trip to Japan and explore the countryside within the next 6 months.",
+        "details": [
+          {
+            "reason": "travel and exploration"
+          }
+        ],
+        "status": "CreateMemory",
+        "original_entry": null
+      }
+    },
+    {
+      "input_text": "I need to create a plan to take my career to the next level, any suggestions on how to get started?",
+      "existing_knowledge": [
+        {
+          "id": "12e74fc8-e395-4f02-be68-1bdbdcdff917",
+          "category": null,
+          "content": null,
+          "details": null,
+          "status": null
+        }
+      ],
+      "output": {
+        "id": "3b25572c-9b3c-4a2f-80b2-d69d87c67efb",
+        "category": "Task",
+        "content": "I need to create a plan to take my career to the next level, any suggestions on how to get started?",
+        "details": [
+          {
+            "reason": "career advancement"
+          }
+        ],
+        "status": "CreateMemory",
+        "original_entry": null
+      }
+    },
+    {
+      "input_text": "I'm excited to develop my skills and become a more well-rounded person.",
+      "existing_knowledge": [
+        {
+          "id": "bb77f85f-7e6f-49bf-b465-b4f346a74e4d",
+          "category": null,
+          "content": null,
+          "details": null,
+          "status": null
+        }
+      ],
+      "output": {
+        "id": "8a83cf0a-58b0-4a98-a235-9b805f485231",
+        "category": "UserAttribute",
+        "content": "I'm excited to develop my skills and become a more well-rounded person.",
+        "details": [
+          {
+            "reason": "learning new skills"
+          }
+        ],
+        "status": "CreateMemory",
+        "original_entry": null
+      }
+    },
+    {
+      "input_text": "I need to create a plan to take my career to the next level, any suggestions on how to get started?",
+      "existing_knowledge": [
+        {
+          "id": "bdedef16-2a2a-4efe-9ee3-80b11776c712",
+          "category": null,
+          "content": null,
+          "details": null,
+          "status": null
+        }
+      ],
+      "output": {
+        "id": "daf9cf95-4edc-4c97-adf2-0e1ced7612eb",
+        "category": "Task",
+        "content": "I need to create a plan to take my career to the next level, any suggestions on how to get started?",
+        "details": [
+          {
+            "reason": "career advancement"
+          }
+        ],
+        "status": "CreateMemory",
+        "original_entry": null
+      }
+    },
+    {
+      "input_text": "I want to plan a trip to Japan within the next 6 months and explore the Tokyo city life.",
+      "existing_knowledge": [
+        {
+          "id": "0d8dfc5c-f594-4529-9d9f-36580ac628b0",
+          "category": null,
+          "content": null,
+          "details": null,
+          "status": null
+        }
+      ],
+      "output": {
+        "id": "e2b109db-3283-43bf-b29b-ae41ad785eb3",
+        "category": "ShortTermGoals",
+        "content": "I want to plan a trip to Japan within the next 6 months and explore the Tokyo city life.",
+        "details": [
+          {
+            "reason": "travel and exploration"
+          }
+        ],
+        "status": "CreateMemory",
+        "original_entry": null
+      }
+    },
+    {
+      "input_text": "I want to travel to at least 5 new countries in the next 5 years and immerse myself in different cultures to broaden my perspective and gain new experiences.",
+      "existing_knowledge": [
+        {
+          "id": "16b7e465-12b7-4b53-ae97-604d6832a419",
+          "category": null,
+          "content": null,
+          "details": null,
+          "status": null
+        }
+      ],
+      "output": {
+        "id": "60a1e289-48c2-4624-8bac-0ddfc9c1ef07",
+        "category": "LongTermGoals",
+        "content": "I want to travel to at least 5 new countries in the next 5 years and immerse myself in different cultures to broaden my perspective and gain new experiences.",
+        "details": [
+          {
+            "reason": "travel and exploration"
+          }
+        ],
+        "status": "CreateMemory",
+        "original_entry": null
+      }
+    },
+    {
+      "input_text": "I need to prioritize my tasks to achieve a better work-life balance and reduce stress.",
+      "existing_knowledge": [
+        {
+          "id": "f4024b43-e510-4105-bb97-b0977f406369",
+          "category": null,
+          "content": null,
+          "details": null,
+          "status": null
+        }
+      ],
+      "output": {
+        "id": "f51ded43-fca7-4ad0-9e3f-ea9da596fcd4",
+        "category": "Task",
+        "content": "I need to prioritize my tasks to achieve a better work-life balance and reduce stress.",
+        "details": [
+          {
+            "reason": "work-life balance"
+          }
+        ],
+        "status": "CreateMemory",
+        "original_entry": null
+      }
+    },
+    {
+      "input_text": "I want to declutter my living space and focus on what truly adds value to my life, rather than being weighed down by unnecessary material possessions.",
+      "existing_knowledge": [
+        {
+          "id": "45b2f35f-35eb-4708-9fce-b3bec03b82b3",
+          "category": null,
+          "content": null,
+          "details": null,
+          "status": null
+        }
+      ],
+      "output": {
+        "id": "58c58c45-843e-4449-9a4a-618d0762f9b7",
+        "category": "Task",
+        "content": "I want to declutter my living space and focus on what truly adds value to my life, rather than being weighed down by unnecessary material possessions.",
+        "details": [
+          {
+            "reason": "material possessions"
+          }
+        ],
+        "status": "CreateMemory",
+        "original_entry": null
+      }
+    },
+    {
+      "input_text": "I want to develop my ability to contribute to my community in meaningful ways, whether through volunteering or participating in local initiatives.",
+      "existing_knowledge": [
+        {
+          "id": "789f8714-30d9-4af9-a6e8-0ff04d5d5481",
+          "category": null,
+          "content": null,
+          "details": null,
+          "status": null
+        }
+      ],
+      "output": {
+        "id": "fc7515ec-a1d2-4f1b-970b-7dbeff4cf952",
+        "category": "UserAttribute",
+        "content": "I want to develop my ability to contribute to my community in meaningful ways, whether through volunteering or participating in local initiatives.",
+        "details": [
+          {
+            "reason": "community involvement"
+          }
+        ],
+        "status": "CreateMemory",
+        "original_entry": null
+      }
+    },
+    {
+      "input_text": "I want to start exercising three times a week to improve my overall health and fitness.",
+      "existing_knowledge": [
+        {
+          "id": "a3543066-eb49-4b67-bc26-ac046cce99d5",
+          "category": null,
+          "content": null,
+          "details": null,
+          "status": null
+        }
+      ],
+      "output": {
+        "id": "d383dc13-2289-47c8-8751-71bd0d93fb18",
+        "category": "Task",
+        "content": "I want to start exercising three times a week to improve my overall health and fitness.",
+        "details": [
+          {
+            "reason": "health and fitness"
+          }
+        ],
+        "status": "CreateMemory",
+        "original_entry": null
+      }
+    }
+  ]
+}

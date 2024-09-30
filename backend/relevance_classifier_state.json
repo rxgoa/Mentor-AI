@@ -1,0 +1,360 @@
+{
+  "model_class": "RelevanceModule",
+  "trainset": [
+    {
+      "input_text": "I feel really tired today and can't focus on my tasks.",
+      "category": "task",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "Had a meeting with my friend.",
+      "category": "irrelevant",
+      "relevance": "FALSE"
+    },
+    {
+      "input_text": "Today I worked on my project and made great progress.",
+      "category": "task",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I'm excited to start learning Python next week.",
+      "category": "goal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "Just finished watching a movie.",
+      "category": "irrelevant",
+      "relevance": "FALSE"
+    },
+    {
+      "input_text": "I want to buy a car soon.",
+      "category": "goal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I want to buy a Tesla.",
+      "category": "goal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I am saving for a new laptop.",
+      "category": "goal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I'm planning a family vacation.",
+      "category": "goal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I'm saving for a house.",
+      "category": "goal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "Had dinner with a friend.",
+      "category": "irrelevant",
+      "relevance": "FALSE"
+    },
+    {
+      "input_text": "I want to improve my communication skills.",
+      "category": "goal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I'm feeling stressed about my upcoming presentation.",
+      "category": "journal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I need to buy groceries later.",
+      "category": "irrelevant",
+      "relevance": "FALSE"
+    },
+    {
+      "input_text": "I'm considering changing my career path.",
+      "category": "journal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "The weather is nice today.",
+      "category": "irrelevant",
+      "relevance": "FALSE"
+    },
+    {
+      "input_text": "I saw a cute cat video on YouTube.",
+      "category": "irrelevant",
+      "relevance": "FALSE"
+    },
+    {
+      "input_text": "I'm working on improving my time management skills.",
+      "category": "journal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I'm feeling overwhelmed with my workload.",
+      "category": "journal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I'm going to the gym to stay fit.",
+      "category": "journal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I'm reading a book on personal finance.",
+      "category": "journal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I'm trying to get back into running after a long break, do you have any tips on how to start again without getting injured?",
+      "category": "irrelevant",
+      "relevance": "FALSE"
+    },
+    {
+      "input_text": "I want to get a promotion within the next 6 months, what skills should I focus on developing to increase my chances?",
+      "category": "goal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I've been thinking about what skills I want to learn in the next year and I'm considering taking online courses in photography and coding. I'm excited to see how these new skills can enhance my creativity and career prospects.",
+      "category": "journal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I want to focus on experiences over material possessions and set a goal to spend less than 20% of my income on non-essential items.",
+      "category": "goal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "Today was a productive day, I managed to complete all my tasks on time and even had some time for self-reflection in the evening. I realized that I need to work on my time management skills to achieve my long-term goals.",
+      "category": "journal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I want to create a workout routine that I can stick to for at least 30 minutes, 3 times a week, to improve my overall health and fitness.",
+      "category": "task",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I want to create a workout routine that I can stick to for at least 30 minutes, 3 times a week, to improve my overall health and fitness.",
+      "category": "task",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I'm not sure how this relates to my goals, but I've been thinking about decluttering my closet and getting rid of some old clothes.",
+      "category": "irrelevant",
+      "relevance": "FALSE"
+    },
+    {
+      "input_text": "I want to save $10,000 in the next 12 months for a down payment on a house.",
+      "category": "goal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I want to focus on experiences over material possessions, how can I shift my mindset to prioritize what truly adds value to my life?",
+      "category": "attribute",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "What are some daily activities that I can do to improve my productivity and focus?",
+      "category": "attribute",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I'm trying to save up for a down payment on a house, but I'm not sure how to allocate my income effectively.",
+      "category": "irrelevant",
+      "relevance": "FALSE"
+    },
+    {
+      "input_text": "I need to create a plan to learn new skills and take on more responsibilities at work to increase my chances of a promotion within the next 6 months.",
+      "category": "task",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I want to dedicate 2 hours every weekend to learning a new programming language and I'm hoping to build a personal project within the next 3 months.",
+      "category": "goal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I'm looking for advice on how to switch industries, but I'm not sure where to start.",
+      "category": "irrelevant",
+      "relevance": "FALSE"
+    },
+    {
+      "input_text": "I want to save $10,000 in the next 12 months for a down payment on a house.",
+      "category": "goal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I've been thinking a lot about the material possessions I own and how they make me feel. I've come to realize that having too many things can be overwhelming and doesn't necessarily bring me happiness. I'm considering decluttering and focusing on what truly adds value to my life.",
+      "category": "journal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I'm looking to develop my skills in data analysis and programming, what are some online courses or resources you would recommend for a beginner?",
+      "category": "attribute",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I'm trying to find ways to optimize my daily routine to have more free time for personal development.",
+      "category": "irrelevant",
+      "relevance": "FALSE"
+    },
+    {
+      "input_text": "I've been trying to cut back on unnecessary expenses and save more money, but it's hard when I see my friends spending on things I want too. I need to remind myself why I started this savings plan in the first place.",
+      "category": "journal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I want to declutter my closet and get rid of clothes I haven't worn in a year, can I get some tips on how to do that?",
+      "category": "task",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "What are some daily activities that I can do to improve my productivity and focus?",
+      "category": "attribute",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I want to dedicate 30 minutes each day to learning a new programming language, can I schedule that in my daily planner?",
+      "category": "task",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I want to save $10,000 in the next 12 months for a down payment on a house.",
+      "category": "goal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "Today was a productive day, I managed to complete all my tasks on time and even had some time for self-reflection in the evening. I realized that I need to work on my time management skills to achieve my long-term goals.",
+      "category": "journal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I want to dedicate 30 minutes each day to learning a new programming language, can I schedule that in my daily planner?",
+      "category": "task",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I'd like to improve my ability to save money and create a budget that actually works for me.",
+      "category": "attribute",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I want to focus on experiences over material possessions, how can I shift my mindset to prioritize what truly adds value to my life?",
+      "category": "attribute",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I'm trying to get back into running after a long break, do you have any tips on how to start again without getting injured?",
+      "category": "irrelevant",
+      "relevance": "FALSE"
+    },
+    {
+      "input_text": "What are some daily activities that I can do to improve my productivity and focus?",
+      "category": "attribute",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I want to save $10,000 in the next 12 months for a down payment on a house.",
+      "category": "goal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I want to improve my communication skills to strengthen my relationships with family and friends.",
+      "category": "goal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I'm trying to get back into running after a long break, do you have any tips on how to start again without getting injured?",
+      "category": "irrelevant",
+      "relevance": "FALSE"
+    },
+    {
+      "input_text": "I want to start a workout routine that I can stick to for at least 30 minutes, 3 times a week, and eat a balanced diet to improve my overall health and fitness.",
+      "category": "goal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I've been thinking a lot about my relationships lately, and I've come to realize that I need to set some boundaries with my friends and family to prioritize my own well-being and focus on nurturing relationships that uplift and support me.",
+      "category": "journal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I need to create a budget plan to track my expenses and savings.",
+      "category": "task",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I want to get a promotion within the next 6 months, what skills should I focus on developing to increase my chances?",
+      "category": "goal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I've been trying to cut back on unnecessary expenses and save more money, but it's hard when I see my friends spending on things I want too. I need to remind myself why I started this savings plan in the first place.",
+      "category": "journal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I've been feeling really stagnant in my current role and I'm worried that I'm not making progress towards my long-term career goals - I think it's time for me to start looking for new opportunities or taking on more responsibilities at work.",
+      "category": "journal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I've been trying to cut back on unnecessary expenses and save more money, but it's hard when I see my friends spending on things I want too. I need to remind myself why I started this savings plan in the first place.",
+      "category": "journal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I want to create a workout routine that I can stick to for at least 30 minutes, 3 times a week, to improve my overall health and fitness.",
+      "category": "task",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I'm looking for advice on how to switch industries, but I'm not sure where to start.",
+      "category": "irrelevant",
+      "relevance": "FALSE"
+    },
+    {
+      "input_text": "I want to dedicate 30 minutes each day to learning a new programming language, can I schedule that in my daily planner?",
+      "category": "task",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I've been feeling really stagnant in my current role and I'm worried that I'm not making progress towards my long-term career goals - I think it's time for me to start looking for new opportunities or taking on more responsibilities at work.",
+      "category": "journal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I want to save $10,000 in the next 12 months for a down payment on a house.",
+      "category": "goal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I've been thinking about what skills I want to learn in the next year and I'm considering taking online courses in photography and coding. I'm excited to see how these new skills can enhance my creativity and career prospects.",
+      "category": "journal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I'm trying to find ways to optimize my daily routine to have more free time for personal development.",
+      "category": "irrelevant",
+      "relevance": "FALSE"
+    },
+    {
+      "input_text": "I'd like to improve my overall endurance and increase my daily step count to 10,000 steps.",
+      "category": "attribute",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I've been thinking about what skills I want to learn in the next year and I'm considering taking online courses in photography and coding. I'm excited to see how these new skills can enhance my creativity and career prospects.",
+      "category": "journal",
+      "relevance": "TRUE"
+    },
+    {
+      "input_text": "I'm looking for advice on how to switch industries, but I'm not sure where to start.",
+      "category": "irrelevant",
+      "relevance": "FALSE"
+    }
+  ]
+}

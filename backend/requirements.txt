@@ -1,0 +1,5 @@
+fastapi
+dspy-ai[groq]
+groq
+uvicorn
+langgraph
